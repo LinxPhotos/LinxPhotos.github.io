@@ -6,3 +6,6 @@
 !README.adoc
 !favicon.svg
 !robots.txt
+
+# Local Netlify folder
+.netlify

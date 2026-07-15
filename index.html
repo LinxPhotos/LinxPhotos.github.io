@@ -7,63 +7,93 @@
       name="description"
       content="LinxPhotos — photography tools and hosting from Linx."
     />
+    <meta name="theme-color" content="#121210" />
     <title>LinxPhotos</title>
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="atmosphere" aria-hidden="true"></div>
+    <div class="stage" aria-hidden="true">
+      <div class="wash"></div>
+      <div class="grain"></div>
+      <div class="matte">
+        <div class="matte-inner"></div>
+      </div>
+    </div>
+
     <header class="top">
-      <p class="mark">LinxPhotos</p>
-      <nav>
-        <a href="https://github.com/LinxPhotos">GitHub</a>
+      <a class="mark" href="./">LinxPhotos</a>
+      <nav aria-label="Primary">
+        <a href="https://linx.photos/">linx.photos</a>
         <a href="https://docs.linx.photos/">Docs</a>
-        <a href="https://linx.photos/">Portfolio hosting</a>
+        <a href="https://github.com/LinxPhotos">GitHub</a>
       </nav>
     </header>
 
-    <main class="hero">
-      <h1>LinxPhotos</h1>
-      <p class="lede">
-        Photography tools and hosting from Linx — made for people who care how
-        images land.
-      </p>
-      <div class="cta">
-        <a class="btn primary" href="https://app.linx.photos/">Open InstaLay</a>
-        <a class="btn ghost" href="https://docs.linx.photos/">Read the docs</a>
-      </div>
-    </main>
+    <main>
+      <section class="hero">
+        <p class="eyebrow reveal" style="--d: 0ms">Tools for photographs</p>
+        <h1 class="reveal" style="--d: 80ms">LinxPhotos</h1>
+        <p class="lede reveal" style="--d: 160ms">
+          Photography software from Linx — framing, publishing, and hosting
+          without fighting the medium.
+        </p>
+        <div class="cta reveal" style="--d: 240ms">
+          <a class="btn primary" href="https://instalay.linx.photos/">InstaLay</a>
+          <a class="btn ghost" href="https://app.linx.photos/">Portfolio app</a>
+        </div>
+      </section>
 
-    <section class="products" aria-label="Products">
-      <article class="product">
-        <h2>InstaLay</h2>
-        <p>
-          Batch-frame photos for Instagram without awkward crops — mattes,
-          pixel borders, and tapestry carousels.
-        </p>
-        <a href="https://app.linx.photos/">app.linx.photos</a>
-      </article>
-      <article class="product">
-        <h2>Portfolio hosting</h2>
-        <p>
-          Client gallery and photo hosting on the Linx platform.
-        </p>
-        <a href="https://linx.photos/">linx.photos</a>
-      </article>
-    </section>
+      <section class="catalog" aria-label="Products">
+        <div class="catalog-head reveal" style="--d: 320ms">
+          <h2>What we ship</h2>
+          <p>Small tools, serious images.</p>
+        </div>
+        <ul class="catalog-list">
+          <li class="reveal" style="--d: 380ms">
+            <div>
+              <h3>InstaLay</h3>
+              <p>
+                Batch-frame photos for Instagram — mattes, pixel borders, and
+                tapestry carousels without the bad crop.
+              </p>
+            </div>
+            <a href="https://instalay.linx.photos/">instalay.linx.photos</a>
+          </li>
+          <li class="reveal" style="--d: 450ms">
+            <div>
+              <h3>Portfolio hosting</h3>
+              <p>
+                Client galleries and photo hosting on the Linx platform.
+              </p>
+            </div>
+            <a href="https://app.linx.photos/">app.linx.photos</a>
+          </li>
+          <li class="reveal" style="--d: 520ms">
+            <div>
+              <h3>Docs</h3>
+              <p>Architecture notes and how-tos for Linx products.</p>
+            </div>
+            <a href="https://docs.linx.photos/">docs.linx.photos</a>
+          </li>
+        </ul>
+      </section>
+    </main>
 
     <footer>
       <span>© <span id="y"></span> Linx</span>
       <a href="https://github.com/LinxPhotos">github.com/LinxPhotos</a>
     </footer>
+
     <script>
       document.getElementById("y").textContent = String(new Date().getFullYear());
+      document.documentElement.classList.add("ready");
     </script>
   </body>
 </html>

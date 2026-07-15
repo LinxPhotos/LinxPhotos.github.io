@@ -1,9 +1,12 @@
 = LinxPhotos on GitHub Pages
 
-Public org homepage for https://linxphotos.github.io/
+Org homepage at https://linxphotos.github.io/
 
-* Product storefront: https://app.linx.photos/ (InstaLay)
-* Docs: https://docs.linx.photos/
-* Portfolio hosting: https://linx.photos/
+Useful mirror / fallback even when primary marketing lives on Netlify (`linx.photos`).
 
-This repo must stay named `LinxPhotos.github.io` so GitHub serves it at the org root.
+Domain map:
+
+* https://linx.photos/ — primary web home
+* https://app.linx.photos/ — portfolio hosting app
+* https://instalay.linx.photos/ — InstaLay storefront
+* https://docs.linx.photos/ — docs
