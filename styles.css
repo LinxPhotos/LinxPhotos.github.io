@@ -60,7 +60,7 @@ body {
   inset: clamp(4.5rem, 10vh, 7rem) clamp(1rem, 4vw, 2.75rem) auto;
   height: min(58vh, 560px);
   border: 1px solid var(--line);
-  background: color-mix(in srgb, var(--matte) 82%, transparent);
+  background: rgba(26, 26, 22, 0.82);
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
   transform: rotate(-0.4deg);
   animation: settle 1.1s cubic-bezier(0.2, 0.8, 0.2, 1) both;
@@ -273,8 +273,9 @@ footer {
 }
 
 .reveal {
-  opacity: 0;
-  transform: translateY(14px);
+  /* Visible by default — animation is progressive enhancement */
+  opacity: 1;
+  transform: none;
 }
 
 html.ready .reveal {
@@ -283,6 +284,10 @@ html.ready .reveal {
 }
 
 @keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
   to {
     opacity: 1;
     transform: none;
