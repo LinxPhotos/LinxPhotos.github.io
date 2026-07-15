@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="LinxPhotos — photography tools and hosting from Linx."
+    />
+    <title>LinxPhotos</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true"></div>
+    <header class="top">
+      <p class="mark">LinxPhotos</p>
+      <nav>
+        <a href="https://github.com/LinxPhotos">GitHub</a>
+        <a href="https://docs.linx.photos/">Docs</a>
+        <a href="https://linx.photos/">Portfolio hosting</a>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <h1>LinxPhotos</h1>
+      <p class="lede">
+        Photography tools and hosting from Linx — made for people who care how
+        images land.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="https://app.linx.photos/">Open InstaLay</a>
+        <a class="btn ghost" href="https://docs.linx.photos/">Read the docs</a>
+      </div>
+    </main>
+
+    <section class="products" aria-label="Products">
+      <article class="product">
+        <h2>InstaLay</h2>
+        <p>
+          Batch-frame photos for Instagram without awkward crops — mattes,
+          pixel borders, and tapestry carousels.
+        </p>
+        <a href="https://app.linx.photos/">app.linx.photos</a>
+      </article>
+      <article class="product">
+        <h2>Portfolio hosting</h2>
+        <p>
+          Client gallery and photo hosting on the Linx platform.
+        </p>
+        <a href="https://linx.photos/">linx.photos</a>
+      </article>
+    </section>
+
+    <footer>
+      <span>© <span id="y"></span> Linx</span>
+      <a href="https://github.com/LinxPhotos">github.com/LinxPhotos</a>
+    </footer>
+    <script>
+      document.getElementById("y").textContent = String(new Date().getFullYear());
+    </script>
+  </body>
+</html>

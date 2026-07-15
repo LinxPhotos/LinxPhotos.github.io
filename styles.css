@@ -1,0 +1,194 @@
+:root {
+  --ink: #e8e6e1;
+  --ink-dim: rgba(232, 230, 225, 0.68);
+  --paper: #131311;
+  --panel: #1c1c18;
+  --line: #2c2b28;
+  --accent: #8fa89a;
+  --accent-deep: #3d5a4c;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  position: relative;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  line-height: 1.5;
+}
+
+.atmosphere {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(900px 520px at 12% -8%, rgba(61, 90, 76, 0.38), transparent 55%),
+    radial-gradient(700px 420px at 92% 8%, rgba(143, 168, 154, 0.16), transparent 50%),
+    linear-gradient(180deg, #161614 0%, var(--paper) 55%, #0f0f0d 100%);
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem clamp(1.25rem, 4vw, 2.5rem);
+}
+
+.mark {
+  margin: 0;
+  font-family: Fraunces, Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem 1.15rem;
+}
+
+nav a,
+footer a,
+.product a {
+  color: var(--ink-dim);
+  text-decoration: none;
+  text-underline-offset: 3px;
+}
+
+nav a:hover,
+footer a:hover,
+.product a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+}
+
+.hero {
+  min-height: min(72vh, 720px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: clamp(3rem, 12vh, 7rem) clamp(1.25rem, 4vw, 2.5rem) 2.5rem;
+  max-width: 920px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-family: Fraunces, Georgia, serif;
+  font-size: clamp(3.4rem, 11vw, 6.5rem);
+  font-weight: 700;
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+}
+
+.lede {
+  margin: 1.15rem 0 0;
+  max-width: 34rem;
+  font-size: 1.12rem;
+  color: var(--ink-dim);
+}
+
+.cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  padding: 0.65rem 1.15rem;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 160ms ease, background 160ms ease, color 160ms ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn.primary {
+  background: var(--accent);
+  color: #121210;
+}
+
+.btn.primary:hover {
+  background: #a4bdae;
+}
+
+.btn.ghost {
+  border: 1px solid var(--line);
+  color: var(--ink);
+  background: transparent;
+}
+
+.btn.ghost:hover {
+  border-color: var(--accent);
+}
+
+.products {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  margin: 0 clamp(1.25rem, 4vw, 2.5rem) 2rem;
+  border: 1px solid var(--line);
+  background: var(--line);
+}
+
+.product {
+  padding: 1.35rem 1.25rem 1.5rem;
+  background: var(--panel);
+}
+
+.product h2 {
+  margin: 0 0 0.45rem;
+  font-family: Fraunces, Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 560;
+}
+
+.product p {
+  margin: 0 0 0.9rem;
+  color: var(--ink-dim);
+}
+
+.product a {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  justify-content: space-between;
+  padding: 1.25rem clamp(1.25rem, 4vw, 2.5rem) 2rem;
+  color: var(--ink-dim);
+  font-size: 0.92rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn {
+    transition: none;
+  }
+
+  .btn:hover {
+    transform: none;
+  }
+}

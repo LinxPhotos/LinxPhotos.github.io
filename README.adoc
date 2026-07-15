@@ -1,0 +1,9 @@
+= LinxPhotos on GitHub Pages
+
+Public org homepage for https://linxphotos.github.io/
+
+* Product storefront: https://app.linx.photos/ (InstaLay)
+* Docs: https://docs.linx.photos/
+* Portfolio hosting: https://linx.photos/
+
+This repo must stay named `LinxPhotos.github.io` so GitHub serves it at the org root.
