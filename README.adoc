@@ -2,16 +2,10 @@
 
 Org homepage at https://linxphotos.github.io/
 
-Useful mirror / fallback even when primary marketing lives on Netlify (`linx.photos`).
+Style matches the original published layout (atmosphere + product tiles).
 
-While custom DNS is unfinished, product links point at working hosts:
+Working links while custom DNS is unfinished:
 
-* InstaLay storefront → https://linxphotos.github.io/insta-lay/
+* InstaLay → https://linxphotos.github.io/insta-lay/
 * Portfolio → https://linx.photos/
-* Docs source → https://github.com/LinxPhotos/docs.linx.photos
-
-Planned custom domains (add Cloudflare CNAMEs when ready):
-
-* `instalay.linx.photos` → GitHub Pages (insta-lay)
-* `app.linx.photos` → portfolio app
-* `docs.linx.photos` → docs
+* Docs → https://github.com/LinxPhotos/docs.linx.photos
