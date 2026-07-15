@@ -196,6 +196,8 @@ footer a:hover {
 }
 
 .catalog {
+  position: relative;
+  z-index: 1;
   margin: 0 clamp(1.25rem, 4vw, 2.5rem) 2.5rem;
   padding-top: 0.5rem;
   border-top: 1px solid var(--line);
@@ -227,19 +229,21 @@ footer a:hover {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .catalog-list li {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 1rem 1.5rem;
-  align-items: end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.55rem;
   padding: 1.35rem 0;
   border-top: 1px solid var(--line);
 }
 
 .catalog-list h3 {
-  margin: 0 0 0.35rem;
+  margin: 0;
   font-family: Fraunces, Georgia, serif;
   font-size: 1.28rem;
   font-weight: 500;
@@ -247,18 +251,20 @@ footer a:hover {
 
 .catalog-list p {
   margin: 0;
-  max-width: 38rem;
+  max-width: 40rem;
   color: var(--ink-dim);
 }
 
-.catalog-list > li > a {
+.catalog-link {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.25rem;
   color: var(--accent);
   text-decoration: none;
-  font-weight: 500;
-  white-space: nowrap;
+  font-weight: 600;
 }
 
-.catalog-list > li > a:hover {
+.catalog-link:hover {
   text-decoration: underline;
 }
 
@@ -279,7 +285,7 @@ footer {
 }
 
 html.ready .reveal {
-  animation: rise 700ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  animation: rise 700ms cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
   animation-delay: var(--d, 0ms);
 }
 
@@ -317,11 +323,6 @@ html.ready .reveal {
 @media (max-width: 720px) {
   .matte {
     height: min(42vh, 360px);
-  }
-
-  .catalog-list li {
-    grid-template-columns: 1fr;
-    align-items: start;
   }
 }
 
