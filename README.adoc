@@ -49,7 +49,7 @@ Style matches the original published layout (atmosphere + product tiles).
 
 Working links while custom DNS is unfinished:
 
-* InstaLay → https://linxphotos.github.io/insta-lay/
+* InstaLay → https://linxphotos.github.io/InstaLay/
 * Portfolio → https://linx.photos/
 * Docs → https://github.com/LinxPhotos/docs.linx.photos
 

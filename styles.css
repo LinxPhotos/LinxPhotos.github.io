@@ -173,6 +173,51 @@ footer a:hover,
   font-weight: 500;
 }
 
+.policy-page {
+  padding: clamp(2.5rem, 7vh, 5rem) clamp(1.25rem, 4vw, 2.5rem) 3rem;
+}
+
+.policy {
+  max-width: 900px;
+}
+
+.policy h1 {
+  margin: 0 0 1rem;
+  font-family: Fraunces, Georgia, serif;
+  font-size: clamp(2rem, 5vw, 3rem);
+  letter-spacing: -0.03em;
+  line-height: 1.08;
+}
+
+.policy .meta {
+  margin: 0 0 1.25rem;
+  color: var(--ink-dim);
+  font-size: 0.95rem;
+}
+
+.policy h2 {
+  margin: 1.75rem 0 0.75rem;
+  font-family: Fraunces, Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 560;
+}
+
+.policy p {
+  margin: 0 0 1rem;
+  color: var(--ink-dim);
+  line-height: 1.7;
+}
+
+.policy ul {
+  margin: 0 0 1rem;
+  padding-left: 1.25rem;
+  color: var(--ink-dim);
+}
+
+.policy li {
+  margin: 0.35rem 0;
+}
+
 footer {
   display: flex;
   flex-wrap: wrap;
