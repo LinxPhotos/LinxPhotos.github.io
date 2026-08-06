@@ -1,11 +1,52 @@
+ifndef::env-github[:icons: font]
+:toc: preamble
+:toclevels: 2
+:sectanchors:
+endif::[]
+
+ifndef::env-github[]
+image:https://img.shields.io/github/contributors/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge[Contributors,link=https://github.com/LinxPhotos/LinxPhotos.github.io/graphs/contributors]
+image:https://img.shields.io/github/forks/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge[Forks,link=https://github.com/LinxPhotos/LinxPhotos.github.io/network/members]
+image:https://img.shields.io/github/stars/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge[Stars,link=https://github.com/LinxPhotos/LinxPhotos.github.io/stargazers]
+image:https://img.shields.io/github/issues/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge[Issues,link=https://github.com/LinxPhotos/LinxPhotos.github.io/issues]
+endif::[]
+
+ifdef::env-github[]
+image:https://img.shields.io/github/contributors/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge[Contributors]
+image:https://img.shields.io/github/forks/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge[Forks]
+image:https://img.shields.io/github/stars/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge[Stars]
+image:https://img.shields.io/github/issues/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge[Issues]
+endif::[]
+
 = LinxPhotos on GitHub Pages
+
+LinxPhotos organization homepage — atmosphere and product tiles.
+
+link:https://linxphotos.github.io/[Visit site] ·
+link:https://github.com/LinxPhotos/LinxPhotos.github.io/issues[Report Bug] ·
+link:https://github.com/LinxPhotos/LinxPhotos.github.io/issues[Request Feature]
+
+== About The Project
 
 Org homepage at https://linxphotos.github.io/
 
 Style matches the original published layout (atmosphere + product tiles).
+
+== Usage
 
 Working links while custom DNS is unfinished:
 
 * InstaLay → https://linxphotos.github.io/insta-lay/
 * Portfolio → https://linx.photos/
 * Docs → https://github.com/LinxPhotos/docs.linx.photos
+
+== Built With
+
+* CSS
+
+== Contact
+
+Linx Photos — support@linx.photos
+
+* Project: https://github.com/LinxPhotos/LinxPhotos.github.io
+* Site: https://linx.photos
