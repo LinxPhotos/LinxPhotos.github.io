@@ -3,8 +3,28 @@ ifndef::env-github[:icons: font]
 :toclevels: 2
 :sectanchors:
 
-[[readme-top]]
+ifdef::env-github[]
+++++
+<a id="readme-top"></a>
+<div align="center">
+<a href="https://github.com/LinxPhotos/LinxPhotos.github.io/graphs/contributors"><img src="https://img.shields.io/github/contributors/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge" alt="Contributors"></a>
+<a href="https://github.com/LinxPhotos/LinxPhotos.github.io/network/members"><img src="https://img.shields.io/github/forks/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/LinxPhotos/LinxPhotos.github.io/stargazers"><img src="https://img.shields.io/github/stars/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/LinxPhotos/LinxPhotos.github.io/issues"><img src="https://img.shields.io/github/issues/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge" alt="Issues"></a>
+<br />
+<h3 align="center">LinxPhotos on GitHub Pages</h3>
+<p align="center">
+LinxPhotos organization homepage — atmosphere and product tiles.<br />
+<a href="https://linxphotos.github.io/"><strong>Visit site »</strong></a><br /><br />
+<a href="https://github.com/LinxPhotos/LinxPhotos.github.io/issues">Report Bug</a>
+&middot;
+<a href="https://github.com/LinxPhotos/LinxPhotos.github.io/issues">Request Feature</a>
+</p>
+</div>
+++++
+endif::[]
 
+ifndef::env-github[]
 image:https://img.shields.io/github/contributors/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge[Contributors,link=https://github.com/LinxPhotos/LinxPhotos.github.io/graphs/contributors]
 image:https://img.shields.io/github/forks/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge[Forks,link=https://github.com/LinxPhotos/LinxPhotos.github.io/network/members]
 image:https://img.shields.io/github/stars/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge[Stars,link=https://github.com/LinxPhotos/LinxPhotos.github.io/stargazers]
@@ -17,6 +37,7 @@ LinxPhotos organization homepage — atmosphere and product tiles.
 link:https://linxphotos.github.io/[Visit site] ·
 link:https://github.com/LinxPhotos/LinxPhotos.github.io/issues[Report Bug] ·
 link:https://github.com/LinxPhotos/LinxPhotos.github.io/issues[Request Feature]
+endif::[]
 
 == About The Project
 
