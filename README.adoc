@@ -2,21 +2,13 @@ ifndef::env-github[:icons: font]
 :toc: preamble
 :toclevels: 2
 :sectanchors:
-endif::[]
 
-ifndef::env-github[]
+[[readme-top]]
+
 image:https://img.shields.io/github/contributors/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge[Contributors,link=https://github.com/LinxPhotos/LinxPhotos.github.io/graphs/contributors]
 image:https://img.shields.io/github/forks/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge[Forks,link=https://github.com/LinxPhotos/LinxPhotos.github.io/network/members]
 image:https://img.shields.io/github/stars/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge[Stars,link=https://github.com/LinxPhotos/LinxPhotos.github.io/stargazers]
 image:https://img.shields.io/github/issues/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge[Issues,link=https://github.com/LinxPhotos/LinxPhotos.github.io/issues]
-endif::[]
-
-ifdef::env-github[]
-image:https://img.shields.io/github/contributors/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge[Contributors]
-image:https://img.shields.io/github/forks/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge[Forks]
-image:https://img.shields.io/github/stars/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge[Stars]
-image:https://img.shields.io/github/issues/LinxPhotos/LinxPhotos.github.io.svg?style=for-the-badge[Issues]
-endif::[]
 
 = LinxPhotos on GitHub Pages
 
@@ -40,9 +32,18 @@ Working links while custom DNS is unfinished:
 * Portfolio → https://linx.photos/
 * Docs → https://github.com/LinxPhotos/docs.linx.photos
 
+++++
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+++++
+
 == Built With
 
-* CSS
+* Markup / styling
+** CSS (static GitHub Pages layout)
+
+++++
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+++++
 
 == Contact
 
@@ -50,3 +51,7 @@ Linx Photos — support@linx.photos
 
 * Project: https://github.com/LinxPhotos/LinxPhotos.github.io
 * Site: https://linx.photos
+
+++++
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+++++
