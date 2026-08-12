@@ -1,4 +1,4 @@
-*
+﻿*
 !.gitignore
 !index.html
 !styles.css
@@ -10,3 +10,7 @@
 
 # Local Netlify folder
 .netlify
+!AGENTS.md
+!STYLE.adoc
+!.cursor/
+!.cursor/**
