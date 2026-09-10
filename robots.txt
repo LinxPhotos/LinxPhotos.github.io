@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://linxphotos.github.io/sitemap.xml

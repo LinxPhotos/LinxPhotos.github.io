@@ -6,6 +6,10 @@
 !README.adoc
 !favicon.svg
 !robots.txt
+!sitemap.xml
+!CHANGELOG.adoc
+!changelog-details/
+!changelog-details/**
 !.nojekyll
 
 # Local Netlify folder

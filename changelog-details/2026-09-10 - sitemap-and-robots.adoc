@@ -1,0 +1,13 @@
+= Sitemap and robots.txt
+
+*Date:* 2026-09-10
+
+== Summary
+
+Crawlers can discover the LinxPhotos GitHub Pages homepage via an absolute sitemap URL advertised from `robots.txt`.
+
+== Details
+
+* Added `sitemap.xml` with `https://linxphotos.github.io/`.
+* Extended `robots.txt` with `Sitemap: https://linxphotos.github.io/sitemap.xml`.
+* Allow-listed both files in `.gitignore`.

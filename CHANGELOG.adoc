@@ -1,0 +1,7 @@
+= Changelog
+
+== Timeline
+
+* link:changelog-details/2026-09-10%20-%20sitemap-and-robots.adoc[2026-09-10 — Sitemap and robots.txt]
++
+Publish `sitemap.xml` for the org homepage and advertise it from `robots.txt`.

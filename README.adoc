@@ -76,3 +76,7 @@ Linx Photos — support@linx.photos
 ++++
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ++++
+
+== Changelog
+
+See link:CHANGELOG.adoc[CHANGELOG.adoc] and link:changelog-details/[changelog-details/].
