@@ -51,7 +51,7 @@ Working links while custom DNS is unfinished:
 
 * InstaLay → https://linxphotos.github.io/InstaLay/
 * Portfolio → https://linx.photos/
-* Docs → https://github.com/LinxPhotos/docs.linx.photos
+* Docs → https://docs.linx.photos/ (https://github.com/LinxPhotos/docs)
 
 ++++
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
