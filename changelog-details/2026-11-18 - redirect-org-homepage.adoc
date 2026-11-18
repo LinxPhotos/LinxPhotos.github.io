@@ -1,0 +1,5 @@
+= 2026-11-18
+
+== Redirect org homepage to linx.photos
+
+The organization homepage, privacy policy, and terms of service on this GitHub Pages site now redirect to the same documents on https://linx.photos/. Product notes from the old homepage live on that site. InstaLay downloads stay on https://instalay.linx.photos/download.

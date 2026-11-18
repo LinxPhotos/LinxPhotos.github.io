@@ -1,3 +1,4 @@
+# Retired org homepage. Each HTML page redirects to the same document on https://linx.photos/
 User-agent: *
 Allow: /
 

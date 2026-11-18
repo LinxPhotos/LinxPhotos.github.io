@@ -15,8 +15,8 @@ ifdef::env-github[]
 <br />
 <h3 align="center">LinxPhotos on GitHub Pages</h3>
 <p align="center">
-LinxPhotos organization homepage — atmosphere and product tiles.<br />
-<a href="https://linxphotos.github.io/"><strong>Visit site »</strong></a><br /><br />
+Retired org homepage. Visitors are sent to linx.photos.<br />
+<a href="https://linx.photos/"><strong>Visit linx.photos »</strong></a><br /><br />
 <a href="https://github.com/LinxPhotos/LinxPhotos.github.io/issues">Report Bug</a>
 &middot;
 <a href="https://github.com/LinxPhotos/LinxPhotos.github.io/issues">Request Feature</a>
@@ -33,9 +33,9 @@ image:https://img.shields.io/github/issues/LinxPhotos/LinxPhotos.github.io.svg?s
 
 = LinxPhotos on GitHub Pages
 
-LinxPhotos organization homepage — atmosphere and product tiles.
+Retired org homepage. Visitors are sent to linx.photos.
 
-link:https://linxphotos.github.io/[Visit site] ·
+link:https://linx.photos/[Visit linx.photos] ·
 link:https://github.com/LinxPhotos/LinxPhotos.github.io/issues[Report Bug] ·
 link:https://github.com/LinxPhotos/LinxPhotos.github.io/issues[Request Feature]
 endif::[]
@@ -51,17 +51,17 @@ toc::[]
 
 == About The Project
 
-Org homepage at https://linxphotos.github.io/
-
-Style matches the original published layout (atmosphere + product tiles).
+This repository used to publish the LinxPhotos organization homepage. That page now redirects to https://linx.photos/. Privacy and terms redirect to the same documents on linx.photos. Product copy from the old page (client galleries, InstaLay mattes and tapestries, docs, and the GitHub org) lives on that site.
 
 == Usage
 
-Working links while custom DNS is unfinished:
-
-* InstaLay → https://linxphotos.github.io/InstaLay/
-* Portfolio → https://linx.photos/
+* Portfolio and org home → https://linx.photos/
+* Privacy → https://linx.photos/privacy-policy
+* Terms → https://linx.photos/terms-of-service
+* InstaLay → https://instalay.linx.photos/ (download: https://instalay.linx.photos/download)
 * Docs → https://docs.linx.photos/ (https://github.com/LinxPhotos/docs)
+
+The old project path https://linxphotos.github.io/InstaLay/ is not the InstaLay site. InstaLay is served on its own domain.
 
 ++++
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -69,8 +69,7 @@ Working links while custom DNS is unfinished:
 
 == Built With
 
-* Markup / styling
-** CSS (static GitHub Pages layout)
+* Static HTML redirects to https://linx.photos/
 
 ++++
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -81,7 +80,7 @@ Working links while custom DNS is unfinished:
 Linx Photos — support@linx.photos
 
 * Project: https://github.com/LinxPhotos/LinxPhotos.github.io
-* Site: https://linx.photos
+* Site: https://linx.photos/
 
 ++++
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

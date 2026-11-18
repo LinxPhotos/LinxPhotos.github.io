@@ -1,5 +1,12 @@
 = Changelog
 
+== 2026-11-18
+
+=== Redirect org homepage to linx.photos
+
+* Home, privacy, and terms now send visitors to the same pages on linx.photos.
+* Detail: link:changelog-details/2026-11-18%20-%20redirect-org-homepage.adoc[Redirect org homepage to linx.photos].
+
 == 2026-11-15
 
 === README contents list
